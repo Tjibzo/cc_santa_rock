@@ -22,7 +22,7 @@ function Main() {
 
 function InitTab() {
     var newTab = [];
-    for (var j = 0; j < 151; j++) {
+    for (var j = 0; j < 186; j++) {
         newTab.push([Rng(2), Rng(2), Rng(2), Rng(2)]);
     }
     for (var k = 0; k != 9; k++) {
