@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Guitar heros</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>
-    <body>
-        <div id="studio">
-            <!-- Code here -->
-        </div>
-        <script src="main.js"></script>
-    </body>
+
+<head>
+    <title>Guitar heros</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="studio">
+        <audio controls id="music">
+            <source src="assets\music\music.mp3">
+        </audio>
+        <button id="play">Play</button>
+        <div id="score"></div>
+        <div id="result"></div>
+        <tableid="guitar">
+            <tr id="line-x">
+                <td id="line-x-1"></td>
+                <td id="line-x-2"></td>
+                <td id="line-x-3"></td>
+                <td id="line-x-4"></td>
+            </tr>
+            <tr id="line-keys">
+                <td id="line-x-1">A</td>
+                <td id="line-x-2">Z</td>
+                <td id="line-x-3">E</td>
+                <td id="line-x-4">R</td>
+            </tr>
+            </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
 </html>
