@@ -14,7 +14,7 @@ function Main() {
         $("#score").text("Score : " + score);
         is_running = true;
         music.play();
-        for (var i = 0; i < tiles.length; i++) {
+        for (var index = 0; index < tile.length; index++) {
             window.setTimeout(LaunchGame, 400 * i, i, tiles);
         }
     }
@@ -25,7 +25,7 @@ function InitTab() {
     for (var j = 0; j < 186; j++) {
         newTab.push([Rng(2), Rng(2), Rng(2), Rng(2)]);
     }
-    for (var k = 0; k != 9; k++) {
+    for (var k = 0; k < 8; k++) {
         newTab.push([0, 0, 0, 0]);
     }
     newTab.push([2, 2, 2, 2]);
