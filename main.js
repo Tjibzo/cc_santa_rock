@@ -14,8 +14,8 @@ function Main() {
         $("#score").text("Score : " + score);
         is_running = true;
         music.play();
-        for (var index = 0; index < tile.length; index++) {
-            window.setTimeout(LaunchGame, 400 * i, i, tiles);
+        for (var index = 0; index < tiles.length; index++) {
+            window.setTimeout(LaunchGame, 400 * index, index, tiles);
         }
     }
 }
@@ -43,7 +43,8 @@ function LaunchGame(id, tiles) {
 }
 
 function InitLine(id, tile) {
-    for (var index = 0; index < tile.lengh; index++) {
+    console.log(tile)
+    for (var index = 0; index < tile.length; index++) {
         if (tile[index] === 1) {
             if (is_running === true) {
                 ChangeColor("#line-" + id + "-" + (index + 1), (index + 1));
