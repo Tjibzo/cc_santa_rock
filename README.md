@@ -4,11 +4,11 @@
 
 Ce projet a été réalisé dans le cadre du `Christmas Camp` organisé le 21 Décembre 2020 par Epitech.
 
-![README/cc.png](README/cc.png)
+![images/cc.png](images/cc.png)
 
 Lors de ce projet, il s'agissait de réaliser une sorte de "Guitar Hero" , en utilisant les langages Web (HTML, CSS et JS).
 
-![README/result.png](README/result.png)
+![images/result.png](images/result.png)
 
 Les participants étaient répartis en plusieurs groupes, et j'ai été placée dans le groupe `Salamèche`. Ainsi, nous pouvions nous entraider, et un `Cobra` était là pour nous aider en cas de problème. 
 
