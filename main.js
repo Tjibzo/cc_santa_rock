@@ -22,7 +22,7 @@ function Main() {
 
 function InitTab() {
     var newTab = [];
-    for (var j = 0; j < 186; j++) {
+    for (var j = 0; j < 200; j++) {
         newTab.push([Rng(2), Rng(2), Rng(2), Rng(2)]);
     }
     for (var k = 0; k < 8; k++) {
@@ -51,6 +51,7 @@ function InitLine(id, tile) {
             }
         } else if (tile[index] === 2) {
             is_running = false;
+            music.pause();
             $("#result").text("Good Job !");
         } else {
             ClearColor("#line-" + id + "-" + (index + 1));
